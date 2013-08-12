@@ -1,0 +1,21 @@
+/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes.dex : \
+/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/ui/TabHostActivity.class \
+/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/ui/AccountActivity$2.class \
+/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/ui/AccountActivity.class \
+/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/ui/TryOnDisplayActivity.class \
+/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/ui/AccountActivity$1.class \
+/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/ui/SettingActivity.class \
+/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/R$string.class \
+/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/R$drawable.class \
+/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/R$layout.class \
+/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/R$id.class \
+/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/R.class \
+/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/R$style.class \
+/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/BuildConfig.class \
+/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/R$menu.class \
+/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/CloudVirtualTryOn.class \
+/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/R$dimen.class \
+/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/R$attr.class \
+/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/config/FirsttimeConfig.class \
+/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/widget/TutorialDialog.class \
+/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/dexedLibs/android-support-v4-141bd920ca6f24dbb4621319679a6694.jar \

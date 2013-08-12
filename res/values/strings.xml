@@ -3,9 +3,12 @@
 
 	<!-- Common -->
   		<string name="app_name">CloudTry-on</string>
-  		<string name="app_title">Cloud Try-on System</string>
+  		<string name="app_title">Cloud Virtual Try-on</string>
   	  	<string name="action_settings">Settings</string>
   	  	<string name="copyright_info">copyright@</string>
     	<string name="free_user">Try it free</string>  
-
+		<string name="tab_display">Display</string> 
+		<string name="tab_setting">Setting</string> 
+		<string name="tab_info">Info</string>
+		<string name="tab_widget">Widget</string>
 </resources>
