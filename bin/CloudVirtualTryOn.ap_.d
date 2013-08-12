@@ -21,10 +21,10 @@
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/res/drawable-mdpi/ic_launcher.png \
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/res/drawable-xhdpi/ic_launcher.png \
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/res/values-zh/strings.xml \
+/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/res/layout/custom_tabhost.xml \
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/res/layout/log_page.xml \
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/res/layout/tutorial_tip.xml \
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/res/layout/main_tabhost.xml \
-/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/res/layout/custom_tab.xml \
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/res/drawable-xxhdpi/ic_launcher.png \
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/res/drawable-hdpi/ic_launcher.png \
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/res/drawable/buttons_nowor_blue.png \

@@ -1,21 +1,28 @@
 
+#ENVIRONMENT
+    linux      
+      ant	
+      eclipse
+      tmux
 
-generate project.properties
+#SET UP PROJECT
 
-select one of the target of which the API level is 17+
+    generate project.properties
+	
+	select one of the target of which the API level is 17+
 
-    android list targets
+        > android list targets
 
-update project
+    update project
 
-    android update project -t ${id-with-17+} -p .
+    	> android update project -t ${id-with-17+} -p .
 
-and add one line to project.properties
+    and add one line to project.properties
 
-    echo "proguard.config=proguard.cfg" >> project.properties
+     	> echo "proguard.config=proguard.cfg" >> project.properties
 
-setup some files
+    setup some files
 
-    ant release-prebuild (or ant debug-prebuild)
+   	> ant release-prebuild (or ant debug-prebuild)
 
 
