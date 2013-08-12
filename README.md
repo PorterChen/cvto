@@ -1,0 +1,51 @@
+
+#ENVIRONMENT
+        linux      
+        ant	
+        eclipse
+        tmux
+
+#SETUP PROJECT
+
+    	generate project.properties
+	
+	select one of the target of which the API level is 17+
+
+		> android list targets
+
+    	update project
+
+		> android update project -t ${id-with-17+} -p .
+
+	and add one line to project.properties
+
+		> echo "proguard.config=proguard.cfg" >> project.properties
+
+	setup some files
+
+		> ant release-prebuild (or ant debug-prebuild)
+
+#Link External Libraries
+
+   	1.ImageViewTouch
+
+	  Download ImageViewZoom from here: https://github.com/sephiroth74/ImageViewZoom
+
+	  Follow the instruction to build ant installd ImageViewTouch Widget.
+
+	  Enter your Workspace,
+		
+		> git clone git@github.com:sephiroth74/ImageViewZoom.git
+
+	  Import ImageViewTouch to your project.
+
+          Enter ImageViewZoom/ImageViewTouch,
+
+		> android update project
+
+		> vi project.properties
+
+	  and del the line: out.library.jar.file=bin/imageviewtouch.jar
+
+          Note that the path should be added to project.properties if you are using Ant.
+

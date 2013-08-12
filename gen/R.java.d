@@ -25,16 +25,4 @@
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/res/layout/log_page.xml \
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/res/layout/tutorial_tip.xml \
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/res/layout/main_tabhost.xml \
-/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/res/drawable-xxhdpi/ic_launcher.png \
-/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/res/drawable-hdpi/ic_launcher.png \
-/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/res/drawable/buttons_nowor_blue.png \
-/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/res/drawable/ic_display_black.png \
-/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/res/drawable/ic_logview.png \
-/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/res/drawable/ic_setting_white.png \
-/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/res/drawable/ic_display_white.png \
-/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/res/drawable/buttons_freetry.png \
-/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/res/drawable/buttons_login.png \
-/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/res/drawable/ic_setting_black.png \
-/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/res/drawable-mdpi/ic_launcher.png \
-/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/res/drawable-xhdpi/ic_launcher.png \
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/AndroidManifest.xml \
