@@ -16,7 +16,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="134dp"
         android:text="@string/app_title"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp" />
 
     <TextView
         android:id="@+id/textCopyrightInfo"
@@ -25,15 +26,6 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:text="@string/copyright_info" />
-	<Button
-        android:id="@+id/buttonLogin"
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@id/textTitle"
-        android:layout_below="@id/textTitle"
-        android:layout_marginTop="90dp"
-        android:background="@drawable/buttons_login" />
 	
     <Button
         android:id="@+id/buttonFreetry"
@@ -44,5 +36,14 @@
         android:layout_toRightOf="@id/buttonLogin"
         android:background="@drawable/buttons_freetry" />
 
+    <Button
+        android:id="@+id/buttonLogin"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textTitle"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/buttons_login" />
     
 </RelativeLayout>
