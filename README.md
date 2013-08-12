@@ -7,45 +7,49 @@
 
 #SETUP PROJECT
 
-    	generate project.properties
-	
-	select one of the target of which the API level is 17+
+* specify android ndk-build path
 
-		> android list targets
+ > echo "ndk.dir=......." >> local.properties
 
-    	update project
+* generate project.properties
 
-		> android update project -t ${id-with-17+} -p .
+   select one of the target of which the API level is 17+
 
-	and add one line to project.properties
+ > android list targets
 
-		> echo "proguard.config=proguard.cfg" >> project.properties
+   update project
+ 
+ > android update project -t ${id-with-17+} -p .
 
-	setup some files
+   and add one line to project.properties
 
-		> ant release-prebuild (or ant debug-prebuild)
+ > echo "proguard.config=proguard.cfg" >> project.properties
+
+   setup some files
+
+ > ant release-prebuild (or ant debug-prebuild)
 
 #Link External Libraries
 
-   	1.ImageViewTouch
+* 1.ImageViewTouch
 
-	  Download ImageViewZoom from here: https://github.com/sephiroth74/ImageViewZoom
+  Download ImageViewZoom from here: https://github.com/sephiroth74/ImageViewZoom
 
-	  Follow the instruction to build ant installd ImageViewTouch Widget.
+  Follow the instruction to build ant installd ImageViewTouch Widget.
 
-	  Enter your Workspace,
+  Enter your Workspace,
 		
-		> git clone git@github.com:sephiroth74/ImageViewZoom.git
+ > git clone git@github.com:sephiroth74/ImageViewZoom.git
 
-	  Import ImageViewTouch to your project.
+  Import ImageViewTouch to your project.
 
-          Enter ImageViewZoom/ImageViewTouch,
+  Enter ImageViewZoom/ImageViewTouch,
 
-		> android update project
+ > android update project
 
-		> vi project.properties
+ > vi project.properties
 
-	  and del the line: out.library.jar.file=bin/imageviewtouch.jar
+  and del the line: out.library.jar.file=bin/imageviewtouch.jar
 
-          Note that the path should be added to project.properties if you are using Ant.
+         Note that the path should be added to project.properties if you are using Ant.
 
