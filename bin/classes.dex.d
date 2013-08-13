@@ -12,10 +12,15 @@
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/device/DeviceDependentCodec.class \
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/device/DeviceInfo.class \
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/device/DeviceDependentCodec$DevicePort.class \
+/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/util/LogMe.class \
+/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/util/TabManager.class \
+/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/util/TabManager$TabInfo.class \
+/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/util/TabManager$DummyTabFactory.class \
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/R$id.class \
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/R.class \
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/R$style.class \
-/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/config/FirsttimeConfig.class \
+/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/config/ConfigBase.class \
+/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/config/FirstTimeConfig.class \
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/config/DeviceConfig.class \
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/config/NetworkConfig.class \
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/BuildConfig.class \

@@ -5,26 +5,42 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="4"
         android:targetSdkVersion="17" />
-
-    <application
-        android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+    
+    <!-- uses permission -->
+		<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+		<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />  
+		<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  	 	<uses-permission android:name="android.permission.ADD_VOICEMAIL" />
+		<uses-permission android:name="android.permission.INTERNET" />
+		<uses-permission android:name="android.permission.READ_LOGS" />
+		<uses-permission android:name="android.permission.RECEIVE_SMS" />
+		<uses-permission android:name="android.permission.READ_PROFILE" />
+		<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+   
+   <!-- application info -->
+		<application
+		   android:name="CloudVirtualTryOn"
+	 	   android:largeHeap="true"
+     	   android:allowBackup="true"
+     	   android:icon="@drawable/ic_launcher"
+     	   android:label="@string/app_name"
+    	   android:theme="@style/CVTOTheme"
+   		   android:debuggable="true" >
      
-        
+    <!-- activity list -->          
         <activity
-            android:name="com.prl.ui.AccountActivity"
+            android:name="com.prl.cvto.ui.AccountActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>      
-        </activity>
-        
+        </activity> 
+        <activity android:name="com.prl.cvto.ui.SettingActivity" android:theme="@style/CVTOTheme.NoTitle" />  
+        <activity android:name="com.prl.cvto.ui.TabHostActivity" android:theme="@style/CVTOTheme.NoTitle" />       
+        <activity android:name="com.prl.cvto.ui.TryOnDisplayActivity" android:theme="@style/CVTOTheme.NoTitle" />       
         
     </application>
 

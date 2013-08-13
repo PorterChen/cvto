@@ -1,5 +1,6 @@
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/AccountActivity.ap_ \
- : /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/res/drawable-xxhdpi/ic_launcher.png \
+ : /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/res/values-zh-rTW/strings.xml \
+/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/res/drawable-xxhdpi/ic_launcher.png \
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/res/drawable-hdpi/ic_launcher.png \
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/res/menu/account.xml \
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/res/values/styles.xml \
@@ -20,7 +21,6 @@
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/res/drawable/tabicon_display.xml \
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/res/drawable-mdpi/ic_launcher.png \
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/res/drawable-xhdpi/ic_launcher.png \
-/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/res/values-zh/strings.xml \
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/res/layout/custom_tabhost.xml \
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/res/layout/log_page.xml \
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/res/layout/tutorial_tip.xml \

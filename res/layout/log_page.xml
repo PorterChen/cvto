@@ -6,6 +6,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/black"
     tools:context=".AccountActivity" >
 
     <TextView
@@ -14,15 +15,27 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:text="@string/copyright_info" />
+        android:text="@string/copyright_info"
+        android:textColor="@drawable/lightgrey" />
     
-     <ImageView
+    <TextView
+        android:id="@+id/textAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:text="@string/app_title"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@drawable/lightgrey"
+        android:textSize="30sp" />
+    
+    <ImageView
         android:id="@+id/imageLogView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/textTitle"
+        android:layout_below="@id/textAppName"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="16dp"
         android:src="@drawable/ic_logview" />
     
     <Button
@@ -44,19 +57,5 @@
         android:layout_toRightOf="@id/buttonLogin"
         android:background="@drawable/buttons_freetry" />
 
-    
-
-    <TextView
-        android:id="@+id/textTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignRight="@id/imageLogView"
-        android:layout_marginTop="65dp"
-        android:text="@string/app_title"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textSize="30sp" />
-
-   
     
 </RelativeLayout>

@@ -65,11 +65,8 @@ public class DeviceConfig {
     public byte[] getUniqueDeviceIdAsBytes() {
     	ByteBuffer bb = ByteBuffer.wrap(new byte[16]);
     	
-    	// Well, I suppose the order of the most/least is not important.
-    	// In anyway, they should be unique.
     	bb.putLong(mUniqueDeviceId.getMostSignificantBits());
-    	bb.putLong(mUniqueDeviceId.getLeastSignificantBits());
-    	
+    	bb.putLong(mUniqueDeviceId.getLeastSignificantBits());    	
     	return bb.array();    	
     }
    
