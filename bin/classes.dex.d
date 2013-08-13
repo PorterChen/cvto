@@ -1,11 +1,13 @@
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes.dex : \
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/R$string.class \
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/ui/TabHostActivity.class \
+/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/ui/DisplayActivity.class \
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/ui/AccountActivity$2.class \
+/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/ui/FittingActivity.class \
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/ui/AccountActivity.class \
-/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/ui/TryOnDisplayActivity.class \
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/ui/AccountActivity$1.class \
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/ui/SettingActivity.class \
+/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/ui/InfoActivity.class \
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/R$drawable.class \
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/R$layout.class \
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/device/DeviceDependentCodec$Config.class \
@@ -30,5 +32,6 @@
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/R$dimen.class \
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/R$attr.class \
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/com/prl/cvto/widget/TutorialDialog.class \
+/home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/classes/R.java.d \
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/dexedLibs/classes-e9ba49e0a771e3826b069d5a17ea2a13.jar \
 /home/zillians/kinect/Cloud_Virtual_Try_On/workspace/cvto/bin/dexedLibs/android-support-v4-141bd920ca6f24dbb4621319679a6694.jar \

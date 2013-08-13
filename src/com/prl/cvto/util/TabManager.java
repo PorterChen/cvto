@@ -10,6 +10,14 @@ import android.support.v4.app.FragmentTransaction;
 import android.view.View;
 import android.widget.TabHost;
 
+/**
+*
+*
+*@author porter
+*
+*
+*/
+
 public class TabManager implements TabHost.OnTabChangeListener {
     private final FragmentActivity mActivity;
     private final TabHost mTabHost;

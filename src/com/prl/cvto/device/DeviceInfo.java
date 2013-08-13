@@ -3,6 +3,12 @@ package com.prl.cvto.device;
 import android.os.Build;
 import android.util.Log;
 
+/**
+ * 
+ * @OriginAuthor zillians/giggle
+ *
+ */
+
 public class DeviceInfo {	
     static DeviceInfo mDeviceInfo;
     

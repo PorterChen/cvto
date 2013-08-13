@@ -16,7 +16,7 @@ import android.media.MediaCodecInfo.CodecCapabilities;
 	 * 2. Exactly chip   (dlxub1)
 	 * 3. Partially chip (dlxub)
 	 * 
-	 * @author giggle
+	 * @OriginAuthor zillians/giggle
 	 *
 	 */
 

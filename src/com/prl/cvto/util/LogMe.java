@@ -7,8 +7,8 @@ import android.util.Log;
  * this kind of message as important one and should be used in production 
  * build.
  * 
- * @author demon
- *
+ * @OriginAuthor zillians/demon
+ *  
  */
 
 public class LogMe {

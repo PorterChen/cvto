@@ -18,7 +18,7 @@ public class TabHostActivity extends FragmentActivity {
 	
 	private final String TAG = "CVTO.TabHost";
 	private static final String STRING_TAB_DISPLAY = "tab_display";
-	private static final String STRING_TAB_WIDGET = "tab_widget";
+	private static final String STRING_TAB_FITTING = "tab_fitting";
 	private static final String STRING_TAB_SETTING = "tab_setting";
 	private static final String STRING_TAB_INFOMATION = "tab_infomaiotn";
 
@@ -28,7 +28,7 @@ public class TabHostActivity extends FragmentActivity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);		
 			
-		setContentView(R.layout.main_tabhost);				
+		setContentView(R.layout.tabhost_main);				
 		mTabHost = (TabHost) findViewById(android.R.id.tabhost); 
 		mTabHost.setup();   
 		
@@ -45,22 +45,22 @@ public class TabHostActivity extends FragmentActivity {
 		 //Tab for Display
 		 mTabView = setTabHostWidget(mTabView, getString(R.string.tab_display), R.drawable.tabicon_display);
 		 mTabManager.addTab(
-			mTabHost.newTabSpec(STRING_TAB_DISPLAY).setIndicator(mTabView), TryOnDisplayActivity.class, null);
+			mTabHost.newTabSpec(STRING_TAB_DISPLAY).setIndicator(mTabView), DisplayActivity.class, null);
 	
 		 //Tab for Choose widget
-		 mTabView = setTabHostWidget(mTabView, getString(R.string.tab_widget), R.drawable.tabicon_display);
+		 mTabView = setTabHostWidget(mTabView, getString(R.string.tab_fitting), R.drawable.tabicon_display);
 	     mTabManager.addTab(
-	        mTabHost.newTabSpec(STRING_TAB_WIDGET).setIndicator(mTabView ), TryOnDisplayActivity.class, null);
+	        mTabHost.newTabSpec(STRING_TAB_FITTING).setIndicator(mTabView), FittingActivity.class, null);
 	     
 	     //Tab for Setting
 	     mTabView = setTabHostWidget(mTabView, getString(R.string.tab_setting), R.drawable.tabicon_setting);
 	     mTabManager.addTab(
-	      	mTabHost.newTabSpec(STRING_TAB_SETTING).setIndicator(mTabView ), SettingActivity.class, null);
+	      	mTabHost.newTabSpec(STRING_TAB_SETTING).setIndicator(mTabView), SettingActivity.class, null);
 	  
 	     //Tab for Information
 	     mTabView = setTabHostWidget(mTabView, getString(R.string.tab_info), R.drawable.tabicon_setting);
 	     mTabManager.addTab(
-	       	mTabHost.newTabSpec(STRING_TAB_INFOMATION).setIndicator(mTabView ), SettingActivity.class, null);
+	       	mTabHost.newTabSpec(STRING_TAB_INFOMATION).setIndicator(mTabView), InfoActivity.class, null);
 	     
 	}
 	
@@ -81,7 +81,7 @@ public class TabHostActivity extends FragmentActivity {
 	
 	private View setTabHostWidget(View tab, String label, Integer iconId) {   
 	    Log.d(TAG, "In setTabHostWidget");	    
-	    tab = LayoutInflater.from(this).inflate(R.layout.custom_tabhost, null);
+	    tab = LayoutInflater.from(this).inflate(R.layout.tabhost_custom_panel, null);
 	    ImageView tabimage = (ImageView) tab.findViewById(R.id.tabicon);
 	    TextView tabtext = (TextView) tab.findViewById(R.id.tabtext);
 	    

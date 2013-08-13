@@ -15,7 +15,7 @@ public class AccountActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.log_page);
+		setContentView(R.layout.front_coverpage);
 		
 		mbuttonlogin = (Button)findViewById(R.id.buttonLogin);
 		mbuttonfreetry = (Button)findViewById(R.id.buttonFreetry);
@@ -45,6 +45,7 @@ public class AccountActivity extends Activity {
 	
 	public void onClickFreetry(View v) {
 			startActivity(new Intent(AccountActivity.this, TabHostActivity.class)); 
+			AccountActivity.this.finish();
 	}	
 	
 

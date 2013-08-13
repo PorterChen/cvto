@@ -40,8 +40,9 @@
         </activity> 
         <activity android:name="com.prl.cvto.ui.SettingActivity" android:theme="@style/CVTOTheme.NoTitle" />  
         <activity android:name="com.prl.cvto.ui.TabHostActivity" android:theme="@style/CVTOTheme.NoTitle" />       
-        <activity android:name="com.prl.cvto.ui.TryOnDisplayActivity" android:theme="@style/CVTOTheme.NoTitle" />       
-        
+        <activity android:name="com.prl.cvto.ui.DisplayActivity" android:theme="@style/CVTOTheme.NoTitle" />   
+        <activity android:name="com.prl.cvto.ui.FittingActivity" android:theme="@style/CVTOTheme.NoTitle" />   
+        <activity android:name="com.prl.cvto.ui.InfoActivity" android:theme="@style/CVTOTheme.NoTitle" />  
     </application>
 
 </manifest>

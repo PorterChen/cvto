@@ -14,7 +14,7 @@ import android.os.Environment;
 /**
  * Device related configuration
  * 
- * @author giggle
+ * @OriginAuthor zillians/giggle
  * 
  */
 public class DeviceConfig {

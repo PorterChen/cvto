@@ -4,12 +4,18 @@
 # view AndroidManifest.xml #generated:33
 -keep class com.prl.cvto.ui.AccountActivity { <init>(...); }
 
+# view AndroidManifest.xml #generated:43
+-keep class com.prl.cvto.ui.DisplayActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:44
+-keep class com.prl.cvto.ui.FittingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:45
+-keep class com.prl.cvto.ui.InfoActivity { <init>(...); }
+
 # view AndroidManifest.xml #generated:41
 -keep class com.prl.cvto.ui.SettingActivity { <init>(...); }
 
 # view AndroidManifest.xml #generated:42
 -keep class com.prl.cvto.ui.TabHostActivity { <init>(...); }
-
-# view AndroidManifest.xml #generated:43
--keep class com.prl.cvto.ui.TryOnDisplayActivity { <init>(...); }
 
