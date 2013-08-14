@@ -9,6 +9,14 @@ package com.prl.cvto;
 
 public final class R {
     public static final class attr {
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int swipe_support=0x7f010000;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -17,36 +25,54 @@ public final class R {
         public static final int activity_vertical_margin=0x7f040001;
     }
     public static final class drawable {
-        public static final int black=0x7f02000e;
+        public static final int black=0x7f020012;
         public static final int buttons_freetry=0x7f020000;
         public static final int buttons_login=0x7f020001;
         public static final int buttons_nowor_blue=0x7f020002;
-        public static final int gray=0x7f02000f;
-        public static final int ic_display_black=0x7f020003;
-        public static final int ic_display_white=0x7f020004;
-        public static final int ic_launcher=0x7f020005;
-        public static final int ic_logview=0x7f020006;
-        public static final int ic_setting_black=0x7f020007;
-        public static final int ic_setting_white=0x7f020008;
-        public static final int lightgrey=0x7f020011;
-        public static final int lightsteelblue=0x7f020010;
-        public static final int tabbackground_color=0x7f020009;
-        public static final int tabicon_display=0x7f02000a;
-        public static final int tabicon_setting=0x7f02000b;
-        public static final int tabtext_color=0x7f02000c;
-        public static final int white=0x7f02000d;
+        public static final int dark_green=0x7f02001a;
+        public static final int gold=0x7f020018;
+        public static final int gray=0x7f020013;
+        public static final int ic_cart=0x7f020003;
+        public static final int ic_display_black=0x7f020004;
+        public static final int ic_display_white=0x7f020005;
+        public static final int ic_fitting=0x7f020006;
+        public static final int ic_info=0x7f020007;
+        public static final int ic_launcher=0x7f020008;
+        public static final int ic_logview=0x7f020009;
+        public static final int ic_setting=0x7f02000a;
+        public static final int ic_setting_black=0x7f02000b;
+        public static final int ic_setting_white=0x7f02000c;
+        public static final int light_green=0x7f02001b;
+        public static final int lightgrey=0x7f020015;
+        public static final int lightsteelblue=0x7f020014;
+        public static final int orange=0x7f020016;
+        public static final int pico_black=0x7f02001f;
+        public static final int pico_gray=0x7f020020;
+        public static final int pico_lighter_gray=0x7f020021;
+        public static final int red=0x7f020019;
+        public static final int royalblue=0x7f020017;
+        public static final int tabbackground_color=0x7f02000d;
+        public static final int tabicon_display=0x7f02000e;
+        public static final int tabicon_setting=0x7f02000f;
+        public static final int tabtext_color=0x7f020010;
+        public static final int transparent_darkest_gray=0x7f02001e;
+        public static final int transparent_gray=0x7f02001c;
+        public static final int transparent_heavy_gray=0x7f02001d;
+        public static final int white=0x7f020011;
     }
     public static final class id {
-        public static final int action_settings=0x7f080008;
-        public static final int buttonFreetry=0x7f080004;
-        public static final int buttonLogin=0x7f080003;
-        public static final int imageLogView=0x7f080002;
+        public static final int action_settings=0x7f08000a;
+        public static final int buttonFreetry=0x7f080006;
+        public static final int buttonLogin=0x7f080005;
+        public static final int dashboard_info_tip=0x7f080001;
+        public static final int imageLogView=0x7f080004;
+        public static final int pager=0x7f080000;
         public static final int realtabcontent=0x01010000;
-        public static final int scroller=0x7f080007;
-        public static final int tabicon=0x7f080005;
-        public static final int tabtext=0x7f080006;
-        public static final int textAppName=0x7f080001;
-        public static final int textCopyrightInfo=0x7f080000;
+        public static final int scroller=0x7f080009;
+        public static final int tabicon=0x7f080007;
+        public static final int tabtext=0x7f080008;
+        public static final int textAppName=0x7f080003;
+        public static final int textCopyrightInfo=0x7f080002;
     }
     public static final class layout {
         public static final int display=0x7f030000;
@@ -91,4 +117,33 @@ public final class R {
         public static final int CVTOTheme=0x7f060001;
         public static final int CVTOTheme_NoTitle=0x7f060002;
     }
+    public static final class styleable {
+        /** Attributes that can be used with a GestureTuneViewPager.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #GestureTuneViewPager_swipe_support com.prl.cvto:swipe_support}</code></td><td></td></tr>
+           </table>
+           @see #GestureTuneViewPager_swipe_support
+         */
+        public static final int[] GestureTuneViewPager = {
+            0x7f010000
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.prl.cvto.R.attr#swipe_support}
+          attribute's value can be found in the {@link #GestureTuneViewPager} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:swipe_support
+        */
+        public static final int GestureTuneViewPager_swipe_support = 0;
+    };
 }

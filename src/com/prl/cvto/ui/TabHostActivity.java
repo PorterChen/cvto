@@ -42,16 +42,17 @@ public class TabHostActivity extends FragmentActivity {
 	private void initialTabHost() {
 		 mTabHost.setCurrentTab(0);
 		 View mTabView = null;
-		 //Tab for Display
-		 mTabView = setTabHostWidget(mTabView, getString(R.string.tab_display), R.drawable.tabicon_display);
-		 mTabManager.addTab(
-			mTabHost.newTabSpec(STRING_TAB_DISPLAY).setIndicator(mTabView), DisplayActivity.class, null);
 	
 		 //Tab for Choose widget
 		 mTabView = setTabHostWidget(mTabView, getString(R.string.tab_fitting), R.drawable.tabicon_display);
 	     mTabManager.addTab(
 	        mTabHost.newTabSpec(STRING_TAB_FITTING).setIndicator(mTabView), FittingActivity.class, null);
 	     
+		 //Tab for Display
+		 mTabView = setTabHostWidget(mTabView, getString(R.string.tab_display), R.drawable.tabicon_display);
+		 mTabManager.addTab(
+			mTabHost.newTabSpec(STRING_TAB_DISPLAY).setIndicator(mTabView), DisplayActivity.class, null);
+	
 	     //Tab for Setting
 	     mTabView = setTabHostWidget(mTabView, getString(R.string.tab_setting), R.drawable.tabicon_setting);
 	     mTabManager.addTab(

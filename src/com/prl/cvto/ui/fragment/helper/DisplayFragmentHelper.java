@@ -1,5 +1,7 @@
 package com.prl.cvto.ui.fragment.helper;
 
+import com.prl.cvto.author.UserCredential;
+
 
 public interface DisplayFragmentHelper extends FragmentBase {
 
@@ -34,6 +36,10 @@ public interface DisplayFragmentHelper extends FragmentBase {
      * @param listener to listen to the activity gesture change
      */
     void setGestureEnableChangeListener(OnGestureEnableChangeListener listener);
+
+    
+    
+	UserCredential getCredential();
     
     
 }

@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent" >
-
+    xmlns:custom="http://schemas.android.com/apk/res/com.prl.cvto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lightgrey" >
+    
+    
+    <com.prl.cvto.widget.GestureTuneViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        custom:swipe_support="false"/>
+    		
+	<com.zillians.vedr.widget.TutorialTip 
+	    android:id="@+id/dashboard_info_tip"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"/>
+	
+    
 </RelativeLayout>

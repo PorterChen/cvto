@@ -19,6 +19,9 @@
 		<uses-permission android:name="android.permission.READ_PROFILE" />
 		<uses-permission android:name="android.permission.READ_PHONE_STATE" />
    
+   <!-- openGL ES 2.0 -->	
+		<uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+		
    <!-- application info -->
 		<application
 		   android:name="CloudVirtualTryOn"

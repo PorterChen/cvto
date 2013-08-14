@@ -1,0 +1,7 @@
+<resources>    
+    
+   <declare-styleable name="GestureTuneViewPager">
+      <attr name="swipe_support" format="boolean"/>
+   </declare-styleable>
+          
+</resources>

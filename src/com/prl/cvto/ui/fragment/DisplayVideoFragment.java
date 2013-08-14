@@ -41,7 +41,7 @@ public class DisplayVideoFragment extends Fragment{
 	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {		
-        return inflater.inflate(R.layout.display, container, false);		
+        return inflater.inflate(R.layout.display_video, container, false);		
 	}
 	
 	@Override

@@ -5,6 +5,19 @@
     <drawable name="black">#000000</drawable>
     <drawable name="gray">#7F808080</drawable>
    	<drawable name="lightsteelblue">#dfb0c4de</drawable>
-    <drawable name="lightgrey">#d3d3d3</drawable>
-	     
+    <drawable name="lightgrey">#d3d3d3</drawable>	     
+    <drawable name="orange">#ff5500</drawable>
+  	<drawable name="royalblue">#4169E1</drawable>
+ 	<drawable name="gold">#e6b121</drawable>
+ 	<drawable name="red">#aa0000</drawable>
+ 	<drawable name="dark_green">#6a8d00</drawable>
+ 	<drawable name="light_green">#97c800</drawable>
+ 	<drawable name="transparent_gray">#66999999</drawable>
+ 	<drawable name="transparent_heavy_gray">#99999999</drawable>
+ 	<drawable name="transparent_darkest_gray">#bb000000</drawable>
+ 	<drawable name="pico_black">#080808</drawable>
+ 	<drawable name="pico_gray">#3A3A3A</drawable>
+ 	<drawable name="pico_lighter_gray">#7B7B7B</drawable>
+    
+    
 </resources>
